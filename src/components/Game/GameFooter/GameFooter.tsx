@@ -1,7 +1,9 @@
-import React from 'react'
+import { GamefooterStyled } from './GameFooter.styled'
+
+// ---
 
 export const GameFooter = () => {
   return (
-    <div>GameFooter</div>
+   <GamefooterStyled></GamefooterStyled>
   )
 }

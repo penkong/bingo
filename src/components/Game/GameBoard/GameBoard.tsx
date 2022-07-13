@@ -1,7 +1,8 @@
 import React from 'react'
+import { GameBoardStyled } from './GameBoard.styled'
 
 export const GameBoard = () => {
   return (
-    <div>GameBoard</div>
+    <GameBoardStyled></GameBoardStyled>
   )
 }

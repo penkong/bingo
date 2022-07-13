@@ -1,7 +1,7 @@
-import React from 'react'
+import { GameNavStyled } from './GameNav.styled'
+
+// ---
 
 export const GameNav = () => {
-  return (
-    <div>GameNav</div>
-  )
+  return <GameNavStyled></GameNavStyled>
 }
