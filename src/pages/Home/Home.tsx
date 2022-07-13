@@ -1,13 +1,20 @@
 import { HomeCtrStyled } from './Home.styled'
-import { gameInitState, ManagedGameContext } from '../../context'
+import { useGame, gameInitState, ManagedGameContext } from '../../context'
 
 // ---
 
 export const Home = () => {
+
+  const { message } = useGame()
+
   return (
     <>
       <ManagedGameContext {...gameInitState}>
-        <HomeCtrStyled>hello</HomeCtrStyled>
+        <HomeCtrStyled>
+          
+        
+        
+        </HomeCtrStyled>
       </ManagedGameContext>
     </>
   )
