@@ -1,2 +1,2 @@
 export * from './app.context'
-export * from './game.context'
+export * from './Game/game.context'
