@@ -12,9 +12,11 @@ import {
 
 // ---
 
-export const gameInitState = {
+export const gameInitState: IGameState = {
   started: false,
   turn: ITurnEnum.User1,
+  won: true,
+  winner : '',
   message: 'NOTHIN YET',
 }
 

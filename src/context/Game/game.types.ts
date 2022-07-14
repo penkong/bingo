@@ -3,13 +3,15 @@ import { ReactNode } from 'react'
 // ---
 
 export enum ITurnEnum {
-  User1 = 'User1',
-  User2 = 'User2',
+  User1 = 'Player 1',
+  User2 = 'Player 2',
 }
 
 export interface IGameState {
   started: boolean
   turn: ITurnEnum
+  won: boolean
+  winner: ITurnEnum | ''
   message: string
   children?: ReactNode
 }
